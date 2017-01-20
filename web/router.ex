@@ -16,7 +16,13 @@ defmodule Karacagida.Router do
   scope "/", Karacagida do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", PageController, :home
+    get "/aboutus", PageController, :aboutus
+    get "/certificates", PageController, :certificates
+    get "/contactus", PageController, :contact
+    get "/production", PageController, :production
+    get "/products", PageController, :products
+    get "/socialcontributions", PageController, :socialcont
   end
 
   # Other scopes may use custom stacks.
