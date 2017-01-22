@@ -4,25 +4,48 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+
+
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
     <div class="container">
       <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-          </ul>
-        </nav>
-        <span class="logo"></span>
-      </header>
+       <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="/">Home</a></li>
+            <li class="tab"><a href="aboutus">About Us</a></li>
+            <li class="tab"><a href="certificates">Quality</a></li>
+            <li class="tab"><a href="socialcontributions">Social Responsibility</a></li>
+            <li class="tab"><a href="production">Production</a></li>
+            <li class="tab"><a href="contactus">Contact Us</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
 
+      <main role="main" class="row">
 
-      <main role="main">
-        <%= render @view_module, @view_template, assigns %>
-      </main>
+      <div class="col s3">
+        <ul class="side-tabs tabs tabs-transparent">
+          <li class="tab side-tab"><a href=#>one</a></li>
+          <li class="tab side-tab"><a href=#>one</a></li>
+          <li class="tab side-tab"><a href=#>one</a></li>
+          <li class="tab side-tab"><a href=#>one</a></li>
+        </ul>
+      </div>
 
-    </div> <!-- /container -->
+      <div class="col s9">
+          <%= render @view_module, @view_template, assigns %>
+      </div>
+
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
