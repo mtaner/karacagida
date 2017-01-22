@@ -1,4 +1,4 @@
-.container{
+.container {
   max-width: 100%;
   width: 100%;
   display: inline-block;
@@ -39,4 +39,22 @@ tabs {
 li.tab.side-tab {
   margin-top: 5px;
   margin-bottom: 5px;
+  text-align: center;
+}
+
+nav {
+  background-color: #75ccdd;
+}
+
+nav ul a {
+  display: flex;
+  margin: 0 45px;
+  align-items: stretch;
+  font-size: 17px !important;
+  font-family: 'Cinzel' !important;
+  color: white !important;
+}
+
+nav ul a:hover {
+  color: grey !important;
 }
