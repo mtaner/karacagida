@@ -4,7 +4,7 @@
   display: inline-block;
 }
 .side-tab{
-  background-color: #ee6e73;
+  background-color: #75ccdd;
   margin-bottom: 3px;
   margin-top: 3px;
 
@@ -22,10 +22,10 @@ page{
   padding: 40px;
 }
 .side-tabs{
-    background-color: #ee6e73;
+    background-color: #75ccdd;
 }
 tabs {
-  background-color: #ee6e73;
+  background-color: #75ccdd;
 }
 .row .col.s2 {
     margin-left: auto;
@@ -34,7 +34,7 @@ tabs {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #ee6e73;
+    background-color: #75ccdd;
 }
 li.tab.side-tab {
   margin-top: 5px;
