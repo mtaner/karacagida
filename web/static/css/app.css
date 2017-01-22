@@ -1,10 +1,10 @@
-.container{
+.container {
   max-width: 100%;
   width: 100%;
   display: inline-block;
 }
 .side-tab{
-  background-color: #ee6e73;
+  background-color: #75ccdd;
   margin-bottom: 3px;
   margin-top: 3px;
 
@@ -22,10 +22,10 @@ page{
   padding: 40px;
 }
 .side-tabs{
-    background-color: #ee6e73;
+    background-color: #75ccdd;
 }
 tabs {
-  background-color: #ee6e73;
+  background-color: #75ccdd;
 }
 .row .col.s2 {
     margin-left: auto;
@@ -34,9 +34,27 @@ tabs {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #ee6e73;
+    background-color: #75ccdd;
 }
 li.tab.side-tab {
   margin-top: 5px;
   margin-bottom: 5px;
+  text-align: center;
+}
+
+nav {
+  background-color: #75ccdd;
+}
+
+nav ul a {
+  display: flex;
+  margin: 0 45px;
+  align-items: stretch;
+  font-size: 17px !important;
+  font-family: 'Cinzel' !important;
+  color: white !important;
+}
+
+nav ul a:hover {
+  color: grey !important;
 }
